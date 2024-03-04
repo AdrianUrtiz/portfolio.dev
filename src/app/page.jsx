@@ -9,9 +9,9 @@ import Forklift from './icons/Forklift'
 
 const Home = () => {
   return (
-    <main>
+    <main className='px-4'>
       <Container id='about' className='pt-44 pb-24'>
-        <h1 className='text-5xl font-semibold flex gap-x-6 pb-6'>
+        <h1 className='text-3xl md:text-4xl lg:text-5xl font-semibold flex gap-x-4 pb-6'>
           Hey, soy Adrian
           <a
             href='https://www.linkedin.com/in/adrian-urtiz-955aa0266/'
@@ -21,24 +21,24 @@ const Home = () => {
             <Badge>Disponible para trabajar</Badge>
           </a>
         </h1>
-        <h2 className='text-xl opacity-80 text-wrap'>
+        <h2 className='text-lg md:text-xl opacity-80 text-wrap max-w-[750px]'>
           Junior Web Developer. De Morelia, Michoacán, México 🇲🇽 . Estudiante de
           último año en Ingeniería en Sistemas Computacionales en el Instituto
           Tecnológico de Morelia.
         </h2>
 
-        <nav className='flex gap-x-4 mt-6'>
+        <nav className='flex flex-wrap gap-4 mt-6'>
           <SocialItem
             href={'https://www.linkedin.com/in/adrian-urtiz-955aa0266/'}>
-            <LinkedInIcon className='size-6' />
+            <LinkedInIcon className='size-4 lg:size-6' />
             LinkedIn
           </SocialItem>
           <SocialItem href={'https://github.com/AdrianUrtiz'}>
-            <GitHubIcon className='size-6' />
+            <GitHubIcon className='size-4 lg:size-6' />
             GitHub
           </SocialItem>
           <SocialItem href={'mailto: aeurtiz17@gmail.com'}>
-            <MailIcon className='size-6' />
+            <MailIcon className='size-4 lg:size-6' />
             aeurtiz17@gmail.com
           </SocialItem>
         </nav>
