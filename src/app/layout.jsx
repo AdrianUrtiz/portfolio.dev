@@ -2,7 +2,7 @@ import { Onest } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import ScrollToTopButton from './components/ButtonUp'
+import ButtonUp from './components/ButtonUp'
 import BackgroundMain from './components/BackgroundMain'
 
 const onest = Onest({ subsets: ['latin'] })
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <BackgroundMain />
         <Header />
         {children}
-        <ScrollToTopButton />
+        <ButtonUp />
         <Footer />
       </body>
     </html>

@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from 'react'
 
-function ScrollToTopButton() {
+function ButtonUp() {
   const [isVisible, setIsVisible] = useState(false)
 
   const toggleVisibility = () => {
     const scrollTop = document.documentElement.scrollTop
-    setIsVisible(scrollTop > 20)
+    setIsVisible(scrollTop > 450)
   }
 
   const throttledScrollHandler = () => {
@@ -54,4 +54,4 @@ function ScrollToTopButton() {
   )
 }
 
-export default ScrollToTopButton
+export default ButtonUp
