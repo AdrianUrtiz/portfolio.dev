@@ -33,8 +33,8 @@ function ButtonUp() {
       <button
         id='scroll-to-top'
         aria-label='Volver al inicio de la página'
-        className={`group flex size-12 cursor-default items-center justify-center rounded-lg border-2 border-primary bg-black/10 text-primary backdrop-blur hover:scale-105 motion-safe:transition ${
-          isVisible ? '' : 'cursor-default'
+        className={`group flex size-12 items-center justify-center rounded-lg border-2 border-primary bg-black/10 text-primary backdrop-blur hover:scale-105 motion-safe:transition ${
+          isVisible ? 'cursor-pointer' : 'cursor-default'
         }`}
         onClick={scrollToTop}>
         <svg
