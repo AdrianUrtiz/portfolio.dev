@@ -3,9 +3,11 @@ import LinkedInIcon from './icons/LinkedIn'
 import GitHubIcon from './icons/GitHub'
 import SocialItem from './components/SocialItem'
 import MailIcon from './icons/Mail'
-import Experience from './components/Experience'
-import Container from './components/Container'
 import Forklift from './icons/Forklift'
+import CodeIcon from './icons/Code'
+import Container from './components/Container'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 const Home = () => {
   return (
@@ -44,11 +46,18 @@ const Home = () => {
         </nav>
       </Container>
 
-      <Container id='experience'>
-        <h2 className='text-2xl font-medium mb-8 flex gap-x-2 items-center'>
-          <Forklift className='size-6' /> Experiencia
+      <Container id='projects'>
+        <h2 className='text-2xl font-medium mb-8 pt-8 flex gap-x-2 items-center'>
+          <CodeIcon className='size-6' /> Proyectos
         </h2>
         <Experience />
+      </Container>
+
+      <Container id='experience'>
+        <h2 className='text-2xl font-medium mb-8 pt-8 flex gap-x-2 items-center'>
+          <Forklift className='size-6' /> Experiencia Laboral
+        </h2>
+        <Projects />
       </Container>
     </main>
   )

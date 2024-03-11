@@ -32,9 +32,9 @@ const EXPERIENCE = [
 
 const Experience = () => {
   return (
-    <ol class='relative border-s border-gray-200 ml-3 dark:border-gray-700'>
+    <ol className='relative border-s border-gray-200 ml-3 dark:border-gray-700'>
       {EXPERIENCE.map((experience, index) => (
-        <li key={index} class='mb-10 ms-4'>
+        <li key={index} className='mb-10 ms-4'>
           <ExperienceItem {...experience} />
         </li>
       ))}
