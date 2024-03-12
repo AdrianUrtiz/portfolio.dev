@@ -11,6 +11,14 @@ export const metadata = {
   title: 'Adrian Urtiz - Desarrollador y Programador Web',
   description:
     'Conoce más sobre mi y mi trabajo como desarrollador web. Soy Adrian Urtiz, desarrollador web junior con experiencia en tecnologías como React, Next.js, Tailwind CSS, Node.js y Express. ',
+  icons: {
+    icon: [
+      {
+        url: '/images/icon.svg',
+        href: '/images/icon.svg',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({ children }) {
