@@ -48,8 +48,10 @@ const Projects = () => {
     <>
       {PROJECTS.map((project) => (
         <article key={project.id}>
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
+          <h3 className='text-lg font-semibold mt-4 mb-1 text-green-300 dark:text-green-700'>
+            {project.title}
+          </h3>
+          <p className='text-base mb-4 text-pretty'>{project.description}</p>
           <ul>
             {project.tags.map((tag) => (
               <li key={tag}>{tag}</li>
@@ -59,6 +61,7 @@ const Projects = () => {
             width={400}
             height={300}
             quality={70}
+            className='rounded-lg shadow-xl shadow-slate-200/10'
             src={project.image}
             alt={`Captura de pantalla de ${project.title}`}
           />

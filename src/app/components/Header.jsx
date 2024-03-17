@@ -4,13 +4,15 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <header className='flex justify-between items-center w-full p-8 xl:w-[1120px] mx-auto'>
-      <Image
-        className='rounded-full'
-        src='/adrian.jpg'
-        alt='adrian photo'
-        width={50}
-        height={50}
-      />
+      <Link href='/'>
+        <Image
+          className='rounded-full'
+          src='/adrian.jpg'
+          alt='adrian photo'
+          width={50}
+          height={50}
+        />
+      </Link>
 
       <nav className='flex flex-row gap-x-10 opacity-80'>
         <Link href='#top'>Inicio</Link>
