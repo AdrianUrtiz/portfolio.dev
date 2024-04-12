@@ -4,15 +4,17 @@ import GitHubIcon from './icons/GitHub'
 import SocialItem from './components/SocialItem'
 import MailIcon from './icons/Mail'
 import Forklift from './icons/Forklift'
+import User from './icons/User'
 import CodeIcon from './icons/Code'
 import Container from './components/Container'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
+import About from './components/About'
 
 const Home = () => {
   return (
     <main className='px-4'>
-      <Container id='about' className='pt-44 pb-24'>
+      <Container className='pt-44 pb-24'>
         <h1 className='text-3xl md:text-4xl lg:text-5xl font-semibold flex gap-x-4 pb-6'>
           Hey, soy Adrian
           <a
@@ -26,7 +28,7 @@ const Home = () => {
         <h2 className='text-lg md:text-xl opacity-80 text-wrap max-w-[750px]'>
           Junior Web Developer. De Morelia, Michoacán, México 🇲🇽 . Estudiante de
           último año en Ingeniería en Sistemas Computacionales en el Instituto
-          Tecnológico de Morelia.
+          Tecnológico de Morelia con especialidad en Ingeniería de Software.
         </h2>
 
         <nav className='flex flex-wrap gap-4 mt-6'>
@@ -48,16 +50,23 @@ const Home = () => {
 
       <Container id='projects'>
         <h2 className='text-2xl font-medium mb-8 pt-8 flex gap-x-2 items-center'>
-          <CodeIcon className='size-6' /> Proyectos
+          <Forklift className='size-6' /> Proyectos
         </h2>
-        <Experience />
+        <Projects />
       </Container>
 
       <Container id='experience'>
         <h2 className='text-2xl font-medium mb-8 pt-8 flex gap-x-2 items-center'>
-          <Forklift className='size-6' /> Experiencia Laboral
+          <CodeIcon className='size-6' /> Experiencia Laboral
         </h2>
-        <Projects />
+        <Experience />
+      </Container>
+
+      <Container id='about'>
+        <h2 className='text-2xl font-medium mb-8 pt-8 flex gap-x-2 items-center'>
+          <User className='size-6' /> Sobre mí
+        </h2>
+        <About />
       </Container>
     </main>
   )

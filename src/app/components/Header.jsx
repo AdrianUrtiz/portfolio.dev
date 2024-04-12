@@ -16,9 +16,9 @@ const Header = () => {
 
       <nav className='flex flex-row gap-x-10 opacity-80'>
         <Link href='#top'>Inicio</Link>
-        <Link href='#about'>Sobre mi</Link>
         <Link href='#experience'>Experiencia</Link>
         <Link href='#projects'>Proyectos</Link>
+        <Link href='#about'>Sobre mi</Link>
         <Link href='#contact'>Contacto</Link>
       </nav>
     </header>

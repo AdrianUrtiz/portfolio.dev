@@ -8,7 +8,7 @@ import PROJECTS from '../const/Projects'
 
 const Projects = () => {
   return (
-    <>
+    <div className='flex flex-col gap-y-10'>
       {PROJECTS.map((project) => (
         <article
           key={project.id}
@@ -19,7 +19,6 @@ const Projects = () => {
                 width={400}
                 height={224}
                 quality={70}
-                layout='responsive'
                 className='object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105'
                 src={project.image}
                 alt={`Captura de pantalla de ${project.title}`}
@@ -65,7 +64,7 @@ const Projects = () => {
           </div>
         </article>
       ))}
-    </>
+    </div>
   )
 }
 
