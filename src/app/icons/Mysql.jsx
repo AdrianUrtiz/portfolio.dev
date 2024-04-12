@@ -1,4 +1,4 @@
-const MySQL = (props) => (
+const Mysql = (props) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     preserveAspectRatio='xMidYMid'
@@ -13,4 +13,4 @@ const MySQL = (props) => (
     <path d='m58 43-7 1 6 7 4 9v-1c3-1 4-4 4-8l-2-4-5-4Z' fill='#00546B' />
   </svg>
 )
-export default MySQL
+export default Mysql

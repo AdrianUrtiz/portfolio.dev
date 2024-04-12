@@ -1,11 +1,10 @@
 import {
   AmazonWebServices,
-  Code,
   Express,
   Firebase,
   Javascript,
   MongoDB,
-  MySQL,
+  Mysql,
   Php,
   ReactJS,
 } from '../icons'
@@ -29,7 +28,7 @@ const TAGS = {
   MySQL: {
     name: 'MySQL',
     className: 'bg-blue-500/10',
-    icon: MySQL,
+    icon: Mysql,
   },
   PHP: {
     name: 'PHP',
