@@ -1,4 +1,4 @@
-import TAGS from '../const/Tags'
+import TAGS from './Tags'
 
 const PROJECTS = [
   {
@@ -33,9 +33,8 @@ const PROJECTS = [
     title: 'VIVEL Academia de Emprendimiento',
     description:
       'Participación en el desarrollo de una plataforma de educación en línea, contacto directo con el cliente para la definición de requerimientos y desarrollo de la interfaz de usuario. Utilizando tecnologías como CodeIgniter, MySQL, HTML, CSS, entre otras.',
-
     image: '/vivel.png',
-    tags: [TAGS.PHP, TAGS.MySQL, TAGS.HTML, TAGS.CSS],
+    tags: [TAGS.PHP, TAGS.MySQL, TAGS.Javascript],
   },
 ]
 

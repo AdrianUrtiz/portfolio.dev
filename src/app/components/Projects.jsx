@@ -35,7 +35,7 @@ const Projects = () => {
                 {project.tags.map((tag) => (
                   <li key={tag.name}>
                     <span
-                      className={`flex gap-x-2 rounded-full text-xs ${tag.className} py-1 px-2 `}>
+                      className={`flex gap-x-2 rounded-full text-xs ${tag.className} py-1 px-2 cursor-pointer`}>
                       <tag.icon className='size-4' />
                       {tag.name}
                     </span>

@@ -1,77 +1,55 @@
-import ReactJS from '../icons/ReactJS'
-import Firebase from '../icons/Firebase'
-import Javascript from '../icons/Javascript'
-import CSS from '../icons/CSS'
-import HTML from '../icons/HTML'
-import MySQL from '../icons/Mysql'
-import PHP from '../icons/Php'
-import Nodejs from '../icons/NodeJS'
-import Express from '../icons/Express'
-import MongoDB from '../icons/Mongo'
-import AWS from '../icons/Aws'
-import Next from '../icons/Next'
-import Tailwind from '../icons/Tailwind'
+import {
+  AmazonWebServices,
+  Code,
+  Express,
+  Firebase,
+  Javascript,
+  MongoDB,
+  MySQL,
+  Php,
+  ReactJS,
+} from '../icons'
 
 const TAGS = {
   React: {
     name: 'React',
-    className: 'bg-gray-400/20 text-white',
+    className: 'bg-blue-600/10',
     icon: ReactJS,
   },
   Firebase: {
     name: 'Firebase',
-    className: 'bg-gray-400/20 text-white',
+    className: 'bg-yellow-600/10',
     icon: Firebase,
   },
   Javascript: {
     name: 'Javascript',
-    className: 'bg-gray-400/20 text-white',
+    className: 'bg-yellow-500/10',
     icon: Javascript,
-  },
-  HTML: {
-    name: 'HTML',
-    className: 'bg-gray-400/20 text-white',
-    icon: HTML,
-  },
-  CSS: {
-    name: 'CSS',
-    className: 'bg-gray-400/20 text-white',
-    icon: CSS,
   },
   MySQL: {
     name: 'MySQL',
-    className: 'bg-gray-400/20 text-white',
+    className: 'bg-blue-500/10',
     icon: MySQL,
   },
   PHP: {
     name: 'PHP',
-    className: 'bg-gray-400/20 text-white',
-    icon: PHP,
+    className: 'bg-blue-700/10',
+    icon: Php,
   },
   Express: {
     name: 'Express',
-    className: 'bg-gray-400/20 text-white',
+    className: 'bg-green-500/10',
     icon: Express,
   },
   MongoDB: {
     name: 'MongoDB',
-    className: 'bg-gray-400/20 text-white',
+    className: 'bg-green-600/10',
     icon: MongoDB,
   },
   AWS: {
     name: 'AWS',
-    className: 'bg-gray-400/20 text-white',
-    icon: AWS,
-  },
-  Next: {
-    name: 'Next.js',
-    className: 'bg-gray-400/20 text-white',
-    icon: Next,
-  },
-  Tailwind: {
-    name: 'Tailwind CSS',
-    className: 'bg-gray-400/20 text-white',
-    icon: Tailwind,
+    className: 'bg-yellow-500/10',
+    icon: AmazonWebServices,
   },
 }
 
