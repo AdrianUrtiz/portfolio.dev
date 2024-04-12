@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import Badge from './components/Badge'
+import BadgeMovil from './components/BadgeMovil'
 import LinkedInIcon from './icons/LinkedIn'
 import GitHubIcon from './icons/GitHub'
 import SocialItem from './components/SocialItem'
@@ -14,7 +16,23 @@ import About from './components/About'
 const Home = () => {
   return (
     <main className='px-4'>
-      <Container className='pt-44 pb-24'>
+      <Container className='pt-20 md:pt-44 pb-24'>
+        <div class='flex gap-4 mb-4 md:hidden'>
+          <Image
+            class='rounded-full shadow-lg size-16'
+            src='/adrian.jpg'
+            alt='adrian photo'
+            width={50}
+            height={50}
+          />
+          <a
+            href='https://www.linkedin.com/in/adrian-urtiz-955aa0266/'
+            target='_blank'
+            rel='noopener'
+            class='flex items-center transition md:justify-center md:hover:scale-105'>
+            <BadgeMovil>Disponible para trabajar</BadgeMovil>
+          </a>
+        </div>
         <h1 className='text-3xl md:text-4xl lg:text-5xl font-semibold flex gap-x-4 pb-6'>
           Hey, soy Adrian
           <a
