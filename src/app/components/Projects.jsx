@@ -30,7 +30,7 @@ const Projects = () => {
             <h3 className='text-2xl font-bold text-gray-100 dark:text-gray-800'>
               {project.title}
             </h3>
-            <div class='flex flex-wrap mt-2'>
+            <div className='flex flex-wrap mt-2'>
               <ul className='flex flex-row mb-2 gap-x-2'>
                 {project.tags.map((tag) => (
                   <li key={tag.name}>
