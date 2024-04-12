@@ -15,67 +15,62 @@ import Tailwind from '../icons/Tailwind'
 const TAGS = {
   React: {
     name: 'React',
-    className: 'bg-[#003159] text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: ReactJS,
   },
   Firebase: {
     name: 'Firebase',
-    className: 'bg-firebase text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: Firebase,
   },
   Javascript: {
     name: 'Javascript',
-    className: 'bg-javascript text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: Javascript,
   },
   HTML: {
     name: 'HTML',
-    className: 'bg-html text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: HTML,
   },
   CSS: {
     name: 'CSS',
-    className: 'bg-css text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: CSS,
   },
   MySQL: {
     name: 'MySQL',
-    className: 'bg-mysql text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: MySQL,
   },
   PHP: {
     name: 'PHP',
-    className: 'bg-php text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: PHP,
-  },
-  Nodejs: {
-    name: 'Node.js',
-    className: 'bg-nodejs text-white',
-    icon: Nodejs,
   },
   Express: {
     name: 'Express',
-    className: 'bg-express text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: Express,
   },
   MongoDB: {
     name: 'MongoDB',
-    className: 'bg-mongodb text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: MongoDB,
   },
   AWS: {
     name: 'AWS',
-    className: 'bg-aws text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: AWS,
   },
   Next: {
     name: 'Next.js',
-    className: 'bg-next text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: Next,
   },
   Tailwind: {
     name: 'Tailwind CSS',
-    className: 'bg-tailwind text-white',
+    className: 'bg-gray-400/20 text-white',
     icon: Tailwind,
   },
 }

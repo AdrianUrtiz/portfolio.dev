@@ -17,7 +17,7 @@ const PROJECTS = [
       'Desarrollo front-end de una página web para el gobierno de Veracruz, para mostrar información sobre los casos de violencia de género en el estado. Diseñando y desarrollando la interfaz de usuario, utilizando tecnologías como Javascript, HTML, CSS, MySQL, PHP, entre otras.',
     link: 'https://banesvim.ddns.net/banavim/',
     image: '/banesvim.png',
-    tags: [TAGS.Javascript, TAGS.HTML, TAGS.CSS, TAGS.MySQL, TAGS.PHP],
+    tags: [TAGS.Javascript, TAGS.MySQL, TAGS.PHP],
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const PROJECTS = [
       'Desarrollo de un sistema de gestión para organos de gobierno del estado de Michoacán, contacto directo con el cliente para la definición de requerimientos, participando activamente en el desarrollo de la interfaz de usuario y la lógica de negocio. Utilizando tecnologías como React, Node.js, Express, MongoDB, AWS S3, entre otras.',
 
     image: '/sisogem.png',
-    tags: [TAGS.React, TAGS.Nodejs, TAGS.Express, TAGS.MongoDB, TAGS.AWS],
+    tags: [TAGS.React, TAGS.Express, TAGS.MongoDB, TAGS.AWS],
   },
   {
     id: 4,
